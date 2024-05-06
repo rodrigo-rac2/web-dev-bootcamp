@@ -1,0 +1,16 @@
+/* From AY */
+.heading {
+  color: red;
+}
+
+.square-img {
+  width: 100px;
+  height: 100px;
+}
+
+ul {
+  color: blue;
+  /* bold and italic */
+  font-weight: bold;
+  font-style: italic;
+}
