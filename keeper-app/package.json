@@ -35,7 +35,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint --fix",
+      "eslint . --fix --report-unused-disable-directives --max-warnings 0",
       "prettier --write"
     ]
   },
