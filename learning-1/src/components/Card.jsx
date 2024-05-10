@@ -1,16 +1,12 @@
 import PropTypes from "prop-types";
+import Top from "./Top";
+import Bottom from "./Bottom";
 
 function Card(props) {
   return (
     <div className="card">
-      <div className="top">
-        <h2 className="name">{props.name}</h2>
-        <img src={props.img} alt="avatar_img" className="circle-img " />
-      </div>
-      <div className="bottom">
-        <p className="info bottom">{props.tel}</p>
-        <p className="bottom info">{props.email}</p>
-      </div>
+      <Top name={props.name} img={props.img} />
+      <Bottom tel={props.tel} email={props.email} />
     </div>
   );
 }
