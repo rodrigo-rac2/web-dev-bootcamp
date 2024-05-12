@@ -29,7 +29,7 @@ const emojipediaData = [
   },
 ];
 
-function emojipedia() {
+const emojipedia = () => {
   var emojipediaTruncated = [];
   emojipediaData.map((emojipediaItem) => {
     var description =

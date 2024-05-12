@@ -1,6 +1,6 @@
 import React from "react";
-import Entry from "./Entry";
-import emojipedia from "../modules/emojipedia";
+import Entry from "../Entry";
+import emojipedia from "../../modules/emojipedia";
 
 const createEntry = emojiItem => {
   return (
